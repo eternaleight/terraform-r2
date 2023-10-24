@@ -28,7 +28,6 @@ terraform apply -var-file="secrets.tfvars"
 これで、`cloudflare.tf` に記述されたTerraformのコードが実行され、インフラストラクチャが作成または更新されます。`secrets.tfvars` ファイルは、センシティブな情報（APIトークンなど）を提供するために使用されます。
 <br>
 <br>
-<br>
 
 ## Terraformで管理しているリソースを削除するには、`terraform destroy` コマンドを使用します。
 
